@@ -5,11 +5,11 @@ base:
   auth:
     server: http://taroco-authentication-server:9001
   mysql:
-    url: jdbc:mysql://taroco-mysql:3306
+    url: jdbc:mysql://192.168.150:3306
   redis:
-    host: taroco-redis
+    host: 192.168.10.164
     port: 6379
-    password: taroco!@#$
+    password: guest
   zipkin:
     url: http://taroco-zipkin:10003/
 
